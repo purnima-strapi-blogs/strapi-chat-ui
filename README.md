@@ -5,6 +5,8 @@
 - Socket.IO (client)
 - Requires [backend chat server](https://github.com/strapi-blog/strapi-chat-backend)
 
+![Alt Text](./src/img/strapi-chat.gif)
+
 ## Deployed on
 
 Heroku. Watch the app in action [here](https://strapi-chat.purnimagupta.com)
