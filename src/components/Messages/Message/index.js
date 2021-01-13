@@ -10,11 +10,10 @@ function Message(props) {
     const { username, message: { user, text } } = props;
     let sentByCurrentUser = false;
 
-    const trimmedName = username.trim().toLowerCase()
-
-    if (user === trimmedName) {
+    if (user === username) {
         sentByCurrentUser = true
     }
+    
     const background = sentByCurrentUser ? "blue" : "dark";
     const textPosition = sentByCurrentUser ? "end" : "start";
     const textColor = sentByCurrentUser ? "white" : "dark";
